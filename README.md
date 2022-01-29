@@ -6,5 +6,5 @@ when I got the datasets , so the veision of the datasets is first. and the size 
 you can download the newest versions to learn.  
 
 2.method  
-High level classification ,you can get some info about this method fro [here](https://doi.org/10.1007/978-3-030-93409-5_2).
+High level classification ,you can get some info about this method from [here](https://doi.org/10.1007/978-3-030-93409-5_2).
 
