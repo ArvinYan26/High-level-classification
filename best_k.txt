@@ -1,0 +1,105 @@
+
+k=7, 和 k=8的时候得分最稳定
+# 0:b 表示新冠； 1：r 表示正常
+color_map = {0: 'b', 1: 'r'}
+
+
+datasets    70
+train_data:40, test_data:30
+all_acc:[0.8333, 0.5333, 0.8667, 0.8, 0.7333, 0.8333, 0.8333, 0.8, 0.9, 0.8]
+Average_acc:0.7933, Standard Deviation:0.0964
+
+all_acc:[0.9, 0.7667, 0.8333, 0.8667, 0.8333, 0.8, 0.8333, 0.8, 0.7667, 0.8]
+Average_acc:0.8200, Standard Deviation:0.0400
+
+all_acc:[0.6333, 0.8667, 0.7333, 0.8667, 0.8, 0.7667, 0.8, 0.8, 0.8, 0.7333]
+Average_acc:0.7800, Standard Deviation:0.0653
+
+
+
+datasets    70
+train_data:40, test_data:30
+all_acc:[0.7333, 0.8667, 0.9333, 0.6667, 0.8667, 0.9333, 0.9333, 0.9333, 0.8, 0.8]
+Average_acc:0.8467, Standard Deviation:0.0897
+
+all_acc:[0.8667, 0.8, 0.8667, 0.9667, 0.7, 0.8, 0.8, 0.7667, 0.8667, 0.8]
+Average_acc:0.8234, Standard Deviation:0.0684
+
+all_acc:[0.8333, 0.8333, 0.8333, 0.8333, 0.9, 0.8, 0.8667, 0.8333, 0.7667, 0.8]
+Average_acc:0.8300, Standard Deviation:0.0348
+
+
+
+datasets  110
+train_data:80, test_data:30
+all_acc:[0.7667, 0.9, 0.7667, 0.8333, 0.8333, 0.8, 0.8333, 0.8667, 0.9, 0.8]
+Average_acc:0.8300, Standard Deviation:0.0458
+
+all_acc:[0.8, 0.8, 0.8, 0.8667, 0.8333, 0.8333, 0.6, 0.7667, 0.8333, 0.8333]
+Average_acc:0.7967, Standard Deviation:0.0706
+
+all_acc:[0.8667, 0.8333, 0.8667, 0.7333, 0.7667, 0.8333, 0.8667, 0.9333, 0.8667, 0.8667]
+Average_acc:0.8433, Standard Deviation:0.0539
+
+
+
+datasets  150
+train_data:120, test_data:30
+all_acc:[0.8333, 0.9333, 0.9, 0.7667, 0.9667, 0.9333, 0.8667, 0.7667, 0.8667, 0.8]
+Average_acc:0.8633, Standard Deviation:0.0674
+
+all_acc:[0.8667, 0.8, 0.9, 0.9333, 0.9333, 0.8333, 0.9, 0.9, 0.8333, 0.8333]
+Average_acc:0.8733, Standard Deviation:0.0442
+
+all_acc:[0.8333, 0.8, 0.8667, 0.8, 0.9667, 0.9, 0.8, 0.8, 0.7333, 0.8333]
+Average_acc:0.8333, Standard Deviation:0.0615
+
+
+datasets  190
+train_data:160, test_data:30
+all_acc:[0.9333, 0.9667, 0.8667, 0.9, 0.8667, 0.9333, 0.8333, 0.9, 0.9, 1.0]
+Average_acc:0.9100, Standard Deviation:0.0473
+
+all_acc:[0.9, 0.9333, 0.8, 0.9, 0.8333, 0.9, 0.9, 0.9333, 0.9, 0.9333]
+Average_acc:0.8933, Standard Deviation:0.0416
+
+all_acc:[0.8333, 0.8667, 0.9, 0.8333, 0.9333, 1.0, 0.9333, 0.9333, 0.9, 0.9]
+Average_acc:0.9033, Standard Deviation:0.0482
+
+
+datasets  230
+train_data:200, test_data:30
+all_acc:[0.9, 0.9, 0.6667, 0.9, 0.8333, 0.9333, 0.9333, 0.9, 0.9333, 0.8333]
+Average_acc:0.8733, Standard Deviation:0.0772
+
+all_acc:[0.9333, 0.9333, 0.9667, 0.8333, 0.8667, 0.9, 0.8333, 0.9333, 0.8333, 0.6667]
+Average_acc:0.8700, Standard Deviation:0.0823
+
+all_acc:[0.8667, 0.8667, 0.9, 0.8667, 0.8667, 0.8667, 0.8667, 0.9333, 0.8333, 0.9333]
+Average_acc:0.8800, Standard Deviation:0.0305
+
+
+
+datasets  270
+train_data:240, test_data:30
+all_acc:[0.7667, 0.9, 0.9, 0.9333, 0.8667, 0.9, 0.9333, 0.9, 0.8, 0.9]
+Average_acc:0.8800, Standard Deviation:0.0521
+
+all_acc:[0.8, 0.9667, 0.8333, 0.8333, 0.9, 0.8667, 0.8667, 0.9, 0.8667, 1.0]
+Average_acc:0.8833, Standard Deviation:0.0582
+
+all_acc:[0.9667, 0.9333, 0.9333, 0.9333, 0.9333, 0.9333, 0.8667, 0.9, 0.9, 0.9333]
+Average_acc:0.9233, Standard Deviation:0.0260
+
+
+
+datasets  300
+train_data:270, test_data:30
+all_acc:[0.9, 1.0, 0.8333, 0.9667, 0.8667, 0.9333, 0.9, 0.9, 0.9, 0.9333]
+Average_acc:0.9133, Standard Deviation:0.0452
+
+all_acc:[0.9667, 0.8667, 1.0, 0.9, 0.9667, 0.9, 0.9333, 0.9333, 0.8333, 0.9333]
+Average_acc:0.9233, Standard Deviation:0.0473
+
+all_acc:[0.8333, 0.9667, 0.9, 0.8667, 0.9333, 0.9333, 0.9333, 0.9333, 0.9333, 1.0]
+Average_acc:0.9233, Standard Deviation:0.0448
